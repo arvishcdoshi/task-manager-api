@@ -20,7 +20,7 @@ const updateAgeAndCount = async (id, age) => {
     return count
 }
 
-updateAgeAndCount('61e6bd8c253cfe2cd3ae8e49', 2).then((count) => {
+updateAgeAndCount('99', 2).then((count) => {
     console.log(count)
 }).catch((e) => {
     console.log(e)
